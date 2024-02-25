@@ -12,6 +12,7 @@ public class Hashset
         st.add(6);
         System.out.println(st);
         System.out.println(st.size());
+        System.out.println(st.contains(5));
 
     }    
 }
