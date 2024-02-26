@@ -1,0 +1,27 @@
+Trees are used mostly in databases, File_folder systems, networking, machine learning, compression of files, maths, and building from graphs.
+A node has 3 parameters = left node, right node and value.
+
+Properties:-
+>Size= total no of circles(nodes).
+>Edge= line connecting 2 nodes
+>Height= max no. of edges between two nodes(counted from bottom i.e. leaf nodes)
+>level = difference of height from that node to the root node. level of the root node is always zero.
+> Degree = No. of children a node has.
+Types of Tree:-
+1. Complete Binary tree = all levels are filled except the last level but still last level has all its nodes when traversing from left to right(i.e. no node in the middle is missing for the last level).
+2. Full or strict  Binary tree= either zero or 2 children for every node(used for compression)
+3. Perfect Binary tree= All levels are filled
+4. Height Balanced tree= When for a n node tree, the height of tree= log(n)
+5. Skewed Binary tree= Every node has only 1 child(like a linked list)
+6. Ordered Binary tree= Every node has some special condition. like binary search tree.
+
+> Binary Search Tree(BST) = a tree in which the left node is smaller than the root node and every right node is greater than the root node.
+
+Properties required in question:
+--Total nodes in a perfect binary tree = 2^(n+1)-1 OR 2^N+1
+--Total no of leaf nodes in a perfect tree = 2^Height
+--Total internal nodes= 2^N -1
+--For x leafs, no of levels = log(x+1)
+--For Strict tree with x leaf nodes, no of internal nodes = x-1
+
+Time Complexity for Binary Tree:
