@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=AVL_TREE
+comment1.params=root\ space
+comment1.target=void\ print2DUtil(AVL_TREE.Node,\ int)
+comment10.params=
+comment10.target=void\ display()
+comment11.params=node\ details
+comment11.target=void\ display(AVL_TREE.Node,\ java.lang.String)
+comment12.params=args
+comment12.target=void\ main(java.lang.String[])
+comment2.params=root
+comment2.target=void\ print2D(AVL_TREE.Node)
+comment3.params=
+comment3.target=int\ height()
+comment4.params=root
+comment4.target=int\ height(AVL_TREE.Node)
+comment5.params=value
+comment5.target=void\ insert(int)
+comment6.params=value\ node
+comment6.target=AVL_TREE.Node\ insert(int,\ AVL_TREE.Node)
+comment7.params=node
+comment7.target=AVL_TREE.Node\ rotate(AVL_TREE.Node)
+comment8.params=c
+comment8.target=AVL_TREE.Node\ leftRotate(AVL_TREE.Node)
+comment9.params=p
+comment9.target=AVL_TREE.Node\ rightRotate(AVL_TREE.Node)
+numComments=13
