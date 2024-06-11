@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Top_Down_DP 
 {
     int solveMemo(String st1, String st2, int i, int j, int[][] dp)
@@ -19,7 +21,7 @@ class Top_Down_DP
     {
         //Step-1 => dp Creation and initilization....
         int [][]dp = new int[st1.length()][st2.length()];
-        for(int i : dp)
+        for(int i[] : dp)
         {
             Arrays.fill(i, -1);
         }

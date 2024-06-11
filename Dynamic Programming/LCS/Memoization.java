@@ -1,3 +1,4 @@
+import java.util.HashMap;
 class Memoization 
 {
     HashMap<String, Integer> map = new HashMap<>();
@@ -16,7 +17,7 @@ class Memoization
         if(n1 == 0 || n2 == 0) return 0;
         
         // Step 7: Start from end of strings and check if char is equal
-        if(s1.charAt(n1-1) == s2.charAt(n2-1))`
+        if(s1.charAt(n1-1) == s2.charAt(n2-1))
         {
             int result = 1 + lca(s1, s2, n1-1, n2-1);
             map.put(currentInputKey, result);    
