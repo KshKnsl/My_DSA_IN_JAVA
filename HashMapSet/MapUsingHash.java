@@ -1,4 +1,3 @@
-import java.util.*;
 class MapUsingHash 
 {
     private Entity[] entities;
