@@ -78,7 +78,8 @@ class HuffmanCoder
     initEncoderDecoder(node.right, osf+"1");
   }
 
-  public String encode(String source) {
+  public String encode(String source) 
+  {
     String ans = "";
 
     // Bitset can be used: like an array but with a bit at each index
