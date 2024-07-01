@@ -1,0 +1,16 @@
+-Graphs are a way to represent relationships between objects. A graph is a collection of nodes and edges. Each node represents an object, and each edge represents a relationship between two objects. Graphs can be directed or undirected, and they can be weighted or unweighted. 
+
+-There are many different algorithms for working with graphs, including algorithms for finding the shortest path between two nodes, finding the minimum spanning tree of a graph, and finding the maximum flow in a network. 
+
+Ways of storing a Graphs:
+1. Adjacency List
+2. Adjacency Matrix
+3. Edge List
+
+1. Adjacency List: Stores the graph as a list of lists. Each node in the graph is represented by a list, and each list contains the nodes that are adjacent to that node i.e. all its neighbours.
+list of list could be arraylist of arraylist or hashmap of arraylist.
+
+2. Adjacency Matrix: Stores the graph as a 2D matrix. The rows and columns of the matrix represent the nodes in the graph, and the values in the matrix represent whether there is a connection or not. 
+If the graph is weighted, the values in the matrix will be the weights of the edges.
+
+3. Edge List: Stores the graph as a list of edges. Each edge is represented by a pair of nodes, and optionally a weight. This representation is useful for algorithms that work with edges directly(usually when sorting is required), such as Kruskal's algorithm for finding the minimum spanning tree of a graph.
