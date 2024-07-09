@@ -25,7 +25,7 @@ class Knuth_Moris_Patt
 		int lps[] = new int[M];
 		int j = 0; // index for pat[]
 
-		// Preprocess the pattern (calculate lps[])
+		// 50+Preprocess the pattern (calculate lps[])
 		computeLPSArray(pat, M, lps);
 		int i = 0; // index for txt[]
 		while ((N - i) >= (M - j)) 
@@ -56,13 +56,11 @@ class Knuth_Moris_Patt
 
 		while (i < M) 
         {
-			if (pat.charAt(i) == pat.charAt(len)) 
-				lps[i++] = ++len;
+			if (pat.charAt(i) == pat.charAt(len)) lps[i++] = ++len;
 			else // (pat[i] != pat[len])
 			{
 				// This is tricky. Consider the example. AAACAAAA and i = 7. The idea is similar to search step.
-				if (len != 0) 
-					len = lps[len - 1];
+				if (len != 0) 		len = lps[len - 1];
 				else // if (len == 0)
 				{
 					lps[i] = len;
