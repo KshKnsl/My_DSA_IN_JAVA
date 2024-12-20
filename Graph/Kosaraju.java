@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class Kosaraju
 {
     static class Edge
@@ -56,6 +55,7 @@ public class Kosaraju
         }
     }
 
+    @SuppressWarnings("unchecked") 
     public static void kosaraju(ArrayList<Edge> graph[], int V)
     {
         // Step1
@@ -97,6 +97,7 @@ public class Kosaraju
         }
     }
 
+    @SuppressWarnings("unchecked") 
     public static void main(String args[])
     {
         int V = 5;

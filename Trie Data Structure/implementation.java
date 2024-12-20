@@ -1,6 +1,8 @@
 //retrieval digital data structure
 //stores common information only once
-//stored in form of a tree. head node will have 26 child nodes for a to z . and every child node has its own 26[] nodes of children . also every node has a boolean variable to mark the end of the words.
+//stored in form of a tree. head node will have 26 child nodes for a to z . 
+//and every child node has its own 26[] nodes of children . 
+//also every node has a boolean variable to mark the end of the words.
 public class implementation 
 {
     static class Node

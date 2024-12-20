@@ -27,14 +27,7 @@ public class TopologicalSort
 
     public static void topoSortUtil(ArrayList<Edge> graph[], int curr, boolean vis[], Stack<Integer> s)
     {
-        vis[curr] = true;
-        for (int i = 0; i < graph[curr].size(); i++)
-        {
-            Edge e = graph[curr].get(i);
-            if (!vis[e.dest])
-                topoSortUtil(graph, e.dest, vis, s);
-        }
-        s.push(curr);
+       
     }
 
     // O(V+E)
@@ -45,7 +38,16 @@ public class TopologicalSort
         for (int i = 0; i < graph.length; i++)
         {
             if (!vis[i])
-                topoSortUtil(graph, i, vis, s);
+            {
+                vis[i] = true;
+                for (int j = 0; i < graph[i].size(); i++)
+                {
+                    Edge e = graph[i].get(j);
+                    if (!vis[e.dest])
+                        topoSortUtil(graph, e.dest, vis, s);
+                }
+                s.push(i);
+            } 
         }
         while (!s.isEmpty())
         {
