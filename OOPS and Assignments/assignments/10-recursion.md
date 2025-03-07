@@ -1,0 +1,49 @@
+## Medium
+- [Target sum](https://leetcode.com/problems/target-sum/) `leetcode`
+- [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) `leetcode`
+- [K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) `leetcode`
+- [N Digit numbers with digits in increasing order](https://practice.geeksforgeeks.org/problems/n-digit-numbers-with-digits-in-increasing-order5903/1/) `GFG`
+- [Minimum Non-Zero Product of the Array Elements](https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements/) `leetcode`
+- [HackerRank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=recursion&filters%5Bdifficulty%5D%5B%5D=medium)
+- [Divisible Subset](https://www.codechef.com/problems/DIVSUBS)  `Codechef`
+- [decode string](https://leetcode.com/problems/decode-string/)`leetcode`
+- [find the winner of the circular game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) `leetcode`
+- [Different ways to add parantheses in the expression](https://leetcode.com/problems/different-ways-to-add-parentheses/) `leetcode`
+- [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) `leetcode`
+- [Predict the winner.](https://leetcode.com/problems/predict-the-winner/) `leetcode`
+- [Gray code](https://practice.geeksforgeeks.org/problems/gray-code-1611215248/1/) `GFG` `Google`
+- [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) `leetcode`
+- [combination Sum III](https://leetcode.com/problems/combination-sum-iii/) `leetcode`
+- [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) `leetcode`
+- [Letter tile possibilities](https://leetcode.com/problems/letter-tile-possibilities/) `leetcode`
+- [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) `leetcode`
+- [Sort a stack using recursion](https://www.geeksforgeeks.org/sort-a-stack-using-recursion/) `GFG`
+- [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) `leetcode`
+- [Lowest Common Ancestor of a Binary Tree](https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1/) `GFG` `Amex`
+- [Prime numbers after prime P with sum S]() `GFG`
+- [Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/) `leetcode`
+- [Longest Possible Route in a Matrix with Hurdles](https://www.geeksforgeeks.org/longest-possible-route-in-a-matrix-with-hurdles/) `GFG`
+- [Tug of war](https://www.geeksforgeeks.org/tug-of-war/) `GFG` `Adobe`
+- [Rat in a maze](https://www.geeksforgeeks.org/rat-in-a-maze-backtracking-2/) `GFG`
+- [Reorder List](https://leetcode.com/problems/reorder-list/) `leetcode`
+
+## Hard
+- [Perfect-Squares](https://leetcode.com/problems/perfect-squares/solutions/)
+- [Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/) `leetcode`
+- [Special Binary String](https://leetcode.com/problems/special-binary-string/) `leetcode`
+- [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) `leetcode`
+- [Next Happy Number](https://practice.geeksforgeeks.org/problems/next-happy-number4538/1/) `GFG`
+- [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) `leetcode`
+- [Maximize Number of Nice Divisors](https://leetcode.com/problems/maximize-number-of-nice-divisors/) `leetcode`
+- [N Queens](https://leetcode.com/problems/n-queens/) `leetcode`
+- [N Queens II](https://leetcode.com/problems/n-queens-ii/) `leetcode`
+- [Word break II](https://leetcode.com/problems/word-break-ii/) `leetcode` `Google`
+- [Unique paths III](https://leetcode.com/problems/unique-paths-iii/) `leetcode`
+- [Find shortest safe route in a path with landmines](https://www.geeksforgeeks.org/find-shortest-safe-route-in-a-path-with-landmines/) `GFG` `Google`
+- [Minimum steps to destination](https://practice.geeksforgeeks.org/problems/minimum-number-of-steps-to-reach-a-given-number5234/1/) `GFG` `Amex` `Adobe`
+- [Hamiltonian Cycle](https://www.geeksforgeeks.org/hamiltonian-cycle-backtracking-6/) `GFG`
+- [M colorning problem](https://www.geeksforgeeks.org/m-coloring-problem-backtracking-5/) `GFG`
+- [The Knight's tour](https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/) `GFG`
+- [Maximum number possible by doing at-most K swaps](https://www.geeksforgeeks.org/find-maximum-number-possible-by-doing-at-most-k-swaps/) `GFG`
+- [HackerRank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=recursion&filters%5Bdifficulty%5D%5B%5D=hard)
+- [Concatenated Words](https://leetcode.com/problems/concatenated-words/)`leetcode`

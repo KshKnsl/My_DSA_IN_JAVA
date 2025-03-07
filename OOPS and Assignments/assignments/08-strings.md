@@ -1,0 +1,23 @@
+- [Jump Game VII](https://leetcode.com/problems/jump-game-vii/)
+- [Number of Ways to Split a String](https://leetcode.com/problems/number-of-ways-to-split-a-string/description/)
+- [Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/)
+- [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)
+- [Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/)
+- [Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/)
+- [Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/)
+- [Shifting Letters](https://leetcode.com/problems/shifting-letters/)
+- [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)
+- [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)
+- [Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)
+- [Print Words Vertically](https://leetcode.com/problems/print-words-vertically/)
+
+## Hard
+
+- [Valid Number](https://leetcode.com/problems/valid-number/)
+- [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
+- [Last Substring in Lexicographical Order](https://leetcode.com/problems/last-substring-in-lexicographical-order/)
+- [Basic Calculator](https://leetcode.com/problems/basic-calculator/)
+- [Minimum Number of Operations to Make String Sorted](https://leetcode.com/problems/minimum-number-of-operations-to-make-string-sorted/)
+- [Check If String Is Transformable With Substring Sort Operations](https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations/)
+- [Orderly Queue](https://leetcode.com/problems/orderly-queue/)
+- [Special Binary String](https://leetcode.com/problems/special-binary-string/)

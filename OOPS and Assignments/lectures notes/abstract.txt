@@ -1,0 +1,7 @@
+# There can be no objects of an abstract class.
+# You cannot declare abstract constructors, or abstract static methods.
+# You can declare static methods in abstract class.
+Because there can be no objects for abstract class. If they had allowed to call abstract static methods,
+it would that mean we are calling an empty method (abstract) through classname because it is static.
+
+Check: https://stackoverflow.com/questions/260666/can-an-abstract-class-have-a-constructor

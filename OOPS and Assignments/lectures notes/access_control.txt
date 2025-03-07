@@ -1,0 +1,42 @@
+            │ Class │ Package │ Subclass │ Subclass │ World
+            │       │         │(same pkg)│(diff pkg)│(diff pkg & not subclass)
+────────────┼───────┼─────────┼──────────┼──────────┼──────────────────────────
+public      │   +   │    +    │    +     │     +    │   +
+────────────┼───────┼─────────┼──────────┼──────────┼──────────────────────────
+protected   │   +   │    +    │    +     │     +    │
+────────────┼───────┼─────────┼──────────┼──────────┼──────────────────────────
+no modifier │   +   │    +    │    +     │          │
+────────────┼───────┼─────────┼──────────┼──────────┼──────────────────────────
+private     │   +   │         │          │          │
+
+Objects are characterized by three essential properties: state, identity, and behavior.
+The state of an object is a value from its data type. 
+The identity of an object distinguishes one object from another.
+The behavior of an object is the effect of data-type operations.
+
+A parameter is a variable defined by a method that receives a value when the method is called. For example,
+in square( int i), i is a parameter. An argument is a value that is passed to a method when it is invoked.
+Because :
+The static keyword may modify the declaration of a member type C within the body of a non-inner class or interface T.
+Its effect is to declare that C is not an inner class. Just as a static method of T has no current instance of T in its
+body, C also has no current instance of T, nor does it have any lexically enclosing instances.
+Here, test does not have any instance of it's outer class Static. Neither does main.
+But main & Test can have instances of each other.
+
+The finalize( ) Method:
+Sometimes an object will need to perform some action when it is destroyed.
+To handle such situations, Java provides a mechanism called finalization. By using finalization,
+you can define specific actions that will occur when an object is just about to be reclaimed by the garbage collector.
+To add a finalizer to a class, you simply define the finalize( ) method. The Java run time calls that method whenever
+it is about to recycle an object of that class. Right before an asset is freed, the Java run time calls the finalize( )
+method on the object.
+
+protected void finalize( ) {
+    // finalization code here
+}
+
+   // will only run once, when the first obj is create i.e. when the class is loaded for the first time
+    static {
+        System.out.println("I am in static block");
+        b = a * 5;
+    }
